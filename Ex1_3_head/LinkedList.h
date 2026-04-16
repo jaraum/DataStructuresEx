@@ -18,14 +18,15 @@ typedef struct Node {
   int coef;
   int exp;
   struct Node *next;
-}Node;
+} Node;
 
 typedef struct polynomial {
   Node *head; //头指针
   int length;
-}Polynomial;
+} Polynomial;
 
-Status Init(Polynomial *list);
+Status InitList(Polynomial *list);
+
 // Status Append();
 // Status OutPut();
 // Status Destroy();

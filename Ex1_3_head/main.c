@@ -5,17 +5,16 @@
 #include <stdio.h>
 #include "LinkedList.h"
 
+char InitPolynimial(Polynomial *poly);
 
 void PolynomialAddition();
+
 void PolynomialMultiplication();
 
 
 int main(void) {
-  Polynomial A, B;
-
-  Init(&A);
-  Init(&B);
-
+  Polynomial poly1;
+  char name1 = InitPolynimial(&poly1);
 
 
   void PolynomialAddition();
@@ -23,12 +22,20 @@ int main(void) {
   return 0;
 }
 
+// realization
+char InitPolynimial(Polynomial *poly) {
+  printf("name of your polynomial:");
+  char name;
+  scanf(" %c", &name);
+  InitList(poly);
+  return name;
+}
+
+
 void PolynomialAddition() {
   Polynomial C;
-  Init(&C);
-
+  InitList(&C);
 }
 
 void PolynomialMultiplication() {
-
 }

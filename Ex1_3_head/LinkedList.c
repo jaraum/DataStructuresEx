@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include "LinkedList.h"
 
-Status Init(Polynomial *list) {
-  list->head = (Node *)malloc (sizeof(Node));
+Status InitList(Polynomial *list) {
+  list->head = (Node *) malloc(sizeof(Node));
   if (!list->head)
     return ERROR;
   list->head->next = NULL;
@@ -18,5 +18,4 @@ Status Init(Polynomial *list) {
 }
 
 Status Append(Polynomial *list) {
-
 }
