@@ -5,8 +5,30 @@
 #include <stdio.h>
 #include "LinkedList.h"
 
-int main(void) {
-    printf("This is a SingleList with HEAD node.");
 
-    
+void PolynomialAddition();
+void PolynomialMultiplication();
+
+
+int main(void) {
+  Polynomial A, B;
+
+  Init(&A);
+  Init(&B);
+
+
+
+  void PolynomialAddition();
+  void PolynomialMultiplication();
+  return 0;
+}
+
+void PolynomialAddition() {
+  Polynomial C;
+  Init(&C);
+
+}
+
+void PolynomialMultiplication() {
+
 }
