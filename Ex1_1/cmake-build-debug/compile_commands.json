@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/project/dsEx/Ex1_1/cmake-build-debug",
+  "command": "D:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\dsExam1.dir\\main.c.obj -c E:\\project\\dsEx\\Ex1_1\\main.c",
+  "file": "E:/project/dsEx/Ex1_1/main.c",
+  "output": "E:/project/dsEx/Ex1_1/cmake-build-debug/CMakeFiles/dsExam1.dir/main.c.obj"
+},
+{
+  "directory": "E:/project/dsEx/Ex1_1/cmake-build-debug",
+  "command": "D:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\dsExam1.dir\\SeqList.c.obj -c E:\\project\\dsEx\\Ex1_1\\SeqList.c",
+  "file": "E:/project/dsEx/Ex1_1/SeqList.c",
+  "output": "E:/project/dsEx/Ex1_1/cmake-build-debug/CMakeFiles/dsExam1.dir/SeqList.c.obj"
+}
+]

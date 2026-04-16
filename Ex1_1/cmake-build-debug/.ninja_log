@@ -1,0 +1,17 @@
+# ninja log v7
+17	718	7968794135953270	CMakeFiles/dsExam1.dir/main.c.obj	55189cdda1a0a8fa
+199	719	7968794137767540	CMakeFiles/dsExam1.dir/SeqList.c.obj	3dad888a8de65af7
+720	1228	7968794142971901	dsExam1.exe	b2b597af81aef278
+3	6604	7975878332720834	CMakeFiles/dsExam1.dir/main.c.obj	55189cdda1a0a8fa
+6605	11048	7975878398733508	dsExam1.exe	b2b597af81aef278
+3	109	7975887496981894	CMakeFiles/dsExam1.dir/main.c.obj	55189cdda1a0a8fa
+13	128	7975887497088367	CMakeFiles/dsExam1.dir/SeqList.c.obj	3dad888a8de65af7
+128	299	7975887498228130	dsExam1.exe	b2b597af81aef278
+5	128	7976806746556762	CMakeFiles/dsExam1.dir/main.c.obj	55189cdda1a0a8fa
+16	140	7976806746663399	CMakeFiles/dsExam1.dir/SeqList.c.obj	3dad888a8de65af7
+140	333	7976806747908020	dsExam1.exe	b2b597af81aef278
+121	507	7976850376996536	CMakeFiles/dsExam1.dir/SeqList.c.obj	3dad888a8de65af7
+5	529	7976850375840385	CMakeFiles/dsExam1.dir/main.c.obj	55189cdda1a0a8fa
+529	953	7976850381075420	dsExam1.exe	b2b597af81aef278
+4	85	7976850656264224	CMakeFiles/dsExam1.dir/main.c.obj	55189cdda1a0a8fa
+86	253	7976850657083547	dsExam1.exe	b2b597af81aef278

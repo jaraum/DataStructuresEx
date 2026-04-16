@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/project/dsEx/Ex1_2/cmake-build-debug",
+  "command": "D:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\Ex1_2.dir\\main.c.obj -c E:\\project\\dsEx\\Ex1_2\\main.c",
+  "file": "E:/project/dsEx/Ex1_2/main.c",
+  "output": "E:/project/dsEx/Ex1_2/cmake-build-debug/CMakeFiles/Ex1_2.dir/main.c.obj"
+},
+{
+  "directory": "E:/project/dsEx/Ex1_2/cmake-build-debug",
+  "command": "D:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\Ex1_2.dir\\LinkList.c.obj -c E:\\project\\dsEx\\Ex1_2\\LinkList.c",
+  "file": "E:/project/dsEx/Ex1_2/LinkList.c",
+  "output": "E:/project/dsEx/Ex1_2/cmake-build-debug/CMakeFiles/Ex1_2.dir/LinkList.c.obj"
+}
+]

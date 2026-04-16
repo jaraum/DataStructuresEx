@@ -1,0 +1,8 @@
+# ninja log v7
+2	166	7967411341367199	CMakeFiles/Ex1_2.dir/main.c.obj	7e9e6ef5c0de9a52
+15	169	7967411341499255	CMakeFiles/Ex1_2.dir/LinkList.c.obj	9f27d242b2cb1d81
+169	428	7967411343036067	Ex1_2.exe	8dd82c0bb4d3b15f
+19	216	7968820523558560	CMakeFiles/Ex1_2.dir/LinkList.c.obj	9f27d242b2cb1d81
+9	224	7968820523448566	CMakeFiles/Ex1_2.dir/main.c.obj	7e9e6ef5c0de9a52
+224	444	7968820525599403	Ex1_2.exe	8dd82c0bb4d3b15f
+21	437	7977681567967046	CMakeFiles/Ex1_2.dir/main.c.obj	7e9e6ef5c0de9a52

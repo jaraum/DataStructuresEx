@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/CMakeLists (snapshot).txt">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/CMakeLists (snapshot).txt" />
+              <option name="originalContent" value="cmake_minimum_required(VERSION 4.2)&#10;project(Ex1_3 C)&#10;&#10;set(CMAKE_C_STANDARD 11)&#10;&#10;add_executable(Ex1_3 main.c&#10;        polynomial.c&#10;        polynomial.h)&#10;" />
+              <option name="updatedContent" value="cmake_minimum_required(VERSION 3.25)&#10;project(Ex1_3 C)&#10;&#10;set(CMAKE_C_STANDARD 11)&#10;&#10;add_executable(Ex1_3 main.c&#10;        polynomial.c&#10;        polynomial.h)&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
