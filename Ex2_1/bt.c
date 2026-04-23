@@ -2,17 +2,14 @@
 // Created by wangjiacheng on 2026/4/17.
 //
 
-#include <stdlib.h>
-#include <stdio.h>
 #include "bt.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-
-void Create(BinaryTree *bt) {
-  bt->root = NULL;
-}
+void Create(BinaryTree *bt) { bt->root = NULL; }
 
 BTNode *NewNode(ElemType x, BTNode *ln, BTNode *rn) {
-  BTNode *p = (BTNode *) malloc(sizeof(BTNode));
+  BTNode *p = (BTNode *)malloc(sizeof(BTNode));
   if (p == NULL) {
     printf("malloc error, please try again!");
     return NULL;
@@ -45,9 +42,7 @@ void Clear(BTNode *t) {
   free(t);
 }
 
-void TreeClear(BinaryTree *bt) {
-  Clear(bt->root);
-}
+void TreeClear(BinaryTree *bt) { Clear(bt->root); }
 
 void PreOrder(BTNode *t) {
   if (!t)

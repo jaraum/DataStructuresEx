@@ -2,11 +2,21 @@
 // Created by wangjiacheng on 2026/4/17.
 //
 
+#include "bt.h"
 #include <stdio.h>
 #include "bt.h"
 
 BinaryTree InitExampleTree();
+
 void Order();
+
+void CountNode();
+
+void CountLeaf();
+
+void CountHeight();
+
+void SwapTrees();
 
 int main(void) {
   Order();
@@ -42,3 +52,11 @@ void Order() {
 
   TreeClear(&mytree);
 }
+
+void CountNode() {}
+
+void CountLeaf() {}
+
+void CountHeight() {}
+
+void SwapTrees() {}
