@@ -21,6 +21,10 @@ int main(void) {
   return 0;
 }
 
+/**
+ *
+ * @return root
+ */
 BinaryTree InitExampleTree() {
   BinaryTree a, b, x, y, z;
   Create(&a);
