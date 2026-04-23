@@ -45,4 +45,5 @@ char InitPolynomial(Polynomial *poly) {
 
 void PolynomialMultiplication() {
   //TODO
+  //amend
 }
