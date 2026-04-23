@@ -4,21 +4,27 @@
 
 #include "bt.h"
 #include <stdio.h>
-#include "bt.h"
 
 BinaryTree InitExampleTree();
-
+void Order(BinaryTree *bt);
+void Count(BinaryTree *bt);
+void Swap(BinaryTree *bt);
 
 
 int main(void) {
-  Order();
+  BinaryTree mytree = InitExampleTree();
+  Order(&mytree);
+  Count(&mytree);
+  Swap(&mytree);
+  printf("New tree order:");
+  Order(&mytree);
   return 0;
 }
 
-BinaryTree InitExampleTree(){
+BinaryTree InitExampleTree() {
   BinaryTree a, b, x, y, z;
   Create(&a);
-  Create(&b);//a,b as empty node
+  Create(&b); // a,b as empty node
   Create(&x);
   Create(&y);
   Create(&z);
@@ -30,17 +36,22 @@ BinaryTree InitExampleTree(){
   return z;
 }
 
-void Order() {
-  BinaryTree mytree = InitExampleTree();
-
-  PreOrderTree(&mytree);
+void Order(BinaryTree *bt) {
+  printf("Preorder: ");
+  PreOrderTree(bt);
+  printf("\t\tInorder: ");
+  InOrderTree(bt);
+  printf("\t\tPostorder: ");
+  PostOrderTree(bt);
   printf("\n");
+}
 
-  InOrderTree(&mytree);
-  printf("\n");
+void Count(BinaryTree *bt) {
+  printf("Node number: %d\n", TreeSize(bt));
+  printf("Leaf number: %d\n", GetLeafNum(bt));
+  printf("Height: %d\n", GetTreeHeight(bt));
+}
 
-  PostOrderTree(&mytree);
-  printf("\n");
-
-  TreeClear(&mytree);
+void Swap(BinaryTree *bt) {
+  SwapTrees(bt);
 }

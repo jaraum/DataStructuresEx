@@ -39,14 +39,12 @@ void InOrderTree(BinaryTree *bt);
 
 void PostOrderTree(BinaryTree *bt);
 
-void Order();
+int TreeSize(BinaryTree *bt);
 
-void CountNode();
+int GetLeafNum(BinaryTree *bt);
 
-void CountLeaf();
+int GetTreeHeight(BinaryTree *bt);
 
-void CountHeight();
-
-void SwapTrees();
+void SwapTrees(BinaryTree *bt);
 
 #endif //EX2_1_BT_H

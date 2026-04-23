@@ -88,19 +88,59 @@ void PostOrderTree(BinaryTree *bt) {
 
 int Size(BTNode *t) {
   if (!t)
-    return 1;
+    return 0;
   return Size(t->lChild) + Size((t->rChild)) + 1;
 }
 
 int TreeSize(BinaryTree *bt) {
   if (!bt)
-    return 1;
+    return 0;
   return Size(bt->root);
 }
 
-void CountLeaf() {}
+int LeafNum(BTNode *t) {
+  if (!t)
+    return 0;
+  if (t->lChild == NULL && t->rChild == NULL)
+    return 1;
+  return LeafNum(t->lChild) + LeafNum((t->rChild));
+}
 
-void CountHeight() {}
+int GetLeafNum(BinaryTree *bt) {
+  if (!bt)
+    return 0;
+  return LeafNum(bt->root);
+}
 
-void SwapTrees() {}
+int Height(BTNode *t) {
+  if (!t)
+    return 0;
+  int leftHeight = Height(t->lChild);
+  int rightHeight = Height(t->rChild);
+  return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
+}
+
+int GetTreeHeight(BinaryTree *bt) {
+  if (!bt)
+    return 0;
+  return Height(bt->root);
+}
+
+void SwapSubTrees(BTNode *t) {
+  if (!t)
+    return;
+  SwapSubTrees(t->lChild);
+  SwapSubTrees(t->rChild);
+
+  BTNode *temp = t->lChild;
+  t->lChild = t->rChild;
+  t->rChild = temp;
+}
+
+void SwapTrees(BinaryTree *bt) {
+  if (!bt)
+    return;
+  SwapSubTrees(bt->root);
+  printf("Swap finished!\n");
+}
 
