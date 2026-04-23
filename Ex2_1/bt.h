@@ -9,7 +9,7 @@
 #define OK 0
 #define ERROR 1
 
-typedef int ElemType;
+typedef char ElemType;
 
 typedef struct btnode {
   ElemType element;
@@ -22,8 +22,21 @@ typedef struct binarytree {
 } BinaryTree;
 
 void Create(BinaryTree *bt);
+
 BTNode *NewNode(ElemType x, BTNode *ln, BTNode *rn);
+
 bool GetRootVal(BinaryTree *bt, ElemType *x);
-void MakeTree(BinaryTree *bt, ElemType e,BinaryTree *left, BinaryTree *right);
+
+void MakeTree(BinaryTree *bt, ElemType e, BinaryTree *left, BinaryTree *right);
+
+void TreeClear(BinaryTree *bt);
+
+void PreOrderTree(BinaryTree *bt);
+
+void PreOrder(BTNode *t);
+
+void InOrderTree(BinaryTree *bt);
+
+void PostOrderTree(BinaryTree *bt);
 
 #endif //EX2_1_BT_H
