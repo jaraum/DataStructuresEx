@@ -86,8 +86,16 @@ void PostOrderTree(BinaryTree *bt) {
   PostOrder(bt->root);
 }
 
-void CountNode(BinaryTree *bt) {
-  int 
+int Size(BTNode *t) {
+  if (!t)
+    return 1;
+  return Size(t->lChild) + Size((t->rChild)) + 1;
+}
+
+int TreeSize(BinaryTree *bt) {
+  if (!bt)
+    return 1;
+  return Size(bt->root);
 }
 
 void CountLeaf() {}
