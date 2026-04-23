@@ -8,15 +8,7 @@
 
 BinaryTree InitExampleTree();
 
-void Order();
 
-void CountNode();
-
-void CountLeaf();
-
-void CountHeight();
-
-void SwapTrees();
 
 int main(void) {
   Order();
@@ -52,11 +44,3 @@ void Order() {
 
   TreeClear(&mytree);
 }
-
-void CountNode() {}
-
-void CountLeaf() {}
-
-void CountHeight() {}
-
-void SwapTrees() {}

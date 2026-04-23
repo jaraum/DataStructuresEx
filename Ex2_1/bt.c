@@ -85,3 +85,14 @@ void PostOrderTree(BinaryTree *bt) {
     return;
   PostOrder(bt->root);
 }
+
+void CountNode(BinaryTree *bt) {
+  int 
+}
+
+void CountLeaf() {}
+
+void CountHeight() {}
+
+void SwapTrees() {}
+
