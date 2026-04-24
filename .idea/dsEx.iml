@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Ex1_3/cmake-build-debug/.cmake" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex1_3/cmake-build-debug/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex1_3/cmake-build-debug/Testing" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex1_3_HEAD/cmake-build-debug/.cmake" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex1_3_HEAD/cmake-build-debug/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex1_3_HEAD/cmake-build-debug/Testing" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_1/cmake-build-debug/.cmake" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_1/cmake-build-debug/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_1/cmake-build-debug/Testing" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_2/cmake-build-debug/.cmake" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_2/cmake-build-debug/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_2/cmake-build-debug/Testing" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_2_linkedlist/cmake-build-debug/.cmake" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_2_linkedlist/cmake-build-debug/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/Ex2_2_linkedlist/cmake-build-debug/Testing" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
