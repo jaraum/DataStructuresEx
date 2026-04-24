@@ -12,7 +12,7 @@
 typedef char ElemType;
 typedef struct hfmtNode {
   ElemType element;
-  int w;            //weight
+  int w; // weight
   struct hfmtNode *lChild;
   struct hfmtNode *rChild;
 } HFMTNode;
@@ -39,4 +39,4 @@ void ClearHuffmanTree(BinaryTree *tree);
 void DestroyHuffmanCodes(HFMCodeTable *table);
 void MakeTree(BinaryTree *bt, ElemType e, BinaryTree *lChild, BinaryTree *rChild);
 
-#endif //EX2_2_HFMTREE_H
+#endif // EX2_2_HFMTREE_H

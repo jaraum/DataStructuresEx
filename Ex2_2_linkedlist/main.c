@@ -8,23 +8,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-static void PrintCodes(const HFMCodeTable *table, const ElemType symbols[],
-                       int count) {
-  int i;
-  for (i = 0; i < count; ++i) {
-    unsigned char symbol = (unsigned char) symbols[i];
-    printf("%c: %s\n", symbol, table->codes[symbol]);
-  }
-}
+static void PrintCodes(const HFMCodeTable *table, const ElemType symbols[], int count);
 
 int main(void) {
-  const ElemType symbols[] = {
-      'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-      'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+  const ElemType symbols[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+                              'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 
-  const int weights[] = {
-      817, 149, 278, 425, 1270, 223, 202, 609, 697, 15,  77,  403, 241,
-      675, 751, 193, 10,  599, 633, 906, 276, 98,  236, 15,  197, 7};
+  const int weights[] = {817, 149, 278, 425, 1270, 223, 202, 609, 697, 15,  77, 403, 241,
+                         675, 751, 193, 10,  599,  633, 906, 276, 98,  236, 15, 197, 7};
 
   const int count = (int) (sizeof(symbols) / sizeof(symbols[0]));
   const char *sourceText = "HELLOWORLD";
@@ -78,4 +69,12 @@ int main(void) {
   DestroyHuffmanCodes(&codeTable);
   ClearHuffmanTree(&tree);
   return 0;
+}
+
+
+static void PrintCodes(const HFMCodeTable *table, const ElemType symbols[], int count) {
+  for (int i = 0; i < count; ++i) {
+    const unsigned char symbol = (unsigned char) symbols[i];
+    printf("%c: %s\n", symbol, table->codes[symbol]);
+  }
 }
